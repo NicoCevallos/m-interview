@@ -1,0 +1,32 @@
+.root {
+  background-color: lightblue;
+  border-radius: 30px;
+  padding: 8px;
+  width: 300px;
+}
+
+.picture {
+  border-radius: 30px;
+}
+
+.name {
+  text-transform: capitalize;
+}
+
+.info {
+  text-align: left;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  display: block;
+  border: black 1px solid;
+  border-radius: 12px;
+  margin: 8px;
+  width: 150px;
+}
